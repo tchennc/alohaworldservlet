@@ -20,7 +20,11 @@ public class alohaworld extends HttpServlet {
      */
     public alohaworld() {
         super();
+<<<<<<< HEAD
        
+=======
+     
+>>>>>>> refs/remotes/origin/newBranch
         // TODO Auto-generated constructor stub
     }
 
