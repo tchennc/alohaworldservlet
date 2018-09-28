@@ -30,7 +30,7 @@ public class alohaworld extends HttpServlet {
 		// TODO Auto-generated method stub
 	    response.setContentType("text/html");
         PrintWriter printWriter  = response.getWriter();
-        printWriter.println("<h1>Hello World!</h1>");
+        printWriter.println("<h1>Hello World! new test here</h1>");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
@@ -39,6 +39,7 @@ public class alohaworld extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		doGet(request, response);
 		doGet(request, response);
 	}
 
